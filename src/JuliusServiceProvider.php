@@ -28,7 +28,7 @@ class JuliusServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['julius'] = $this->app->share(function($app)
+		$this->app->singleton('julius', function($app)
 		{
 			return new Julius;
 		});
