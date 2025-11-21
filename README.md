@@ -5,7 +5,7 @@ A PHP package mainly developed for Laravel to manage calendar and events.
 (This package was inspired by [laravel-calendar
 ](https://github.com/makzumi/laravel-calendar)).  
 Thank you makzumi!  
-(This is for Laravel 5.1+. [For Laravel 4.2](https://github.com/SUKOHI/Julius/tree/1.0))
+(This is for Laravel 5.5+. [For Laravel 4.2](https://github.com/SUKOHI/Julius/tree/1.0))
 
 **[Demo](http://demo-laravel52.capilano-fw.com/julius?mode=month)**  
 

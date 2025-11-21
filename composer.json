@@ -9,11 +9,21 @@
     ],
     "license": "MIT",
     "require": {
-        "laravel/framework": "5.1.*"
+        "laravel/framework": "5.5.*"
     },
     "autoload": {
         "psr-4": {
             "Sukohi\\Julius\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sukohi\\Julius\\JuliusServiceProvider"
+            ],
+            "aliases": {
+                "Julius": "Sukohi\\Julius\\Facades\\Julius"
+            }
         }
     },
     "minimum-stability": "stable"
